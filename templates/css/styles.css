@@ -1,0 +1,467 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+body
+{
+background: #000000 url(../images/bg.jpg) fixed;
+font: 13px Arial, Helvetica, sans-serif;
+
+}
+
+.clear
+{clear: both}
+
+/*! Logo  */
+
+.my_logo
+{
+padding-top: 30px;
+}
+.my_logo a, .my_logo a:hover 
+{
+font: 35px 'Oxygen', sans-serif;
+color: #fff;
+text-decoration: none
+}
+
+.my_slogan
+{
+text-transform: uppercase;
+padding-left: 120px;
+font: 12px 'Oxygen', sans-serif;
+color: #fff;
+}
+
+
+
+/*! Navigation */
+
+.my_nav
+{
+margin-top: 30px;
+background: #222 url(../images/menu_2.png) repeat-x top;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+font: 14px 'Oxygen', sans-serif;
+}
+
+
+.dropdown-menu a
+{
+font-size: 14px;
+color: #000;
+}
+
+.dropdown-menu ul li
+{
+padding-top: 4px;
+}
+
+
+
+
+.dropdown-menu > li > a:focus
+{
+background:#f5f5f5; 
+}
+
+.navbar-nav
+{margin-left: 20px;}
+
+/*! Content  */
+
+.my_content
+{
+margin-top: 10px;
+background: #fff;
+-webkit-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+padding: 20px;
+}
+
+.welcome
+{
+padding-top: 10px;
+}
+
+.my_templ
+{
+background: #FFE095;
+-webkit-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px;
+margin-right: 10px;
+padding-bottom: 20px;
+margin-top: 10px;
+min-width: 214px;
+}
+
+.top_h3
+{
+font: 18px 'Oxygen', sans-serif;
+margin:0px;
+padding: 0px;
+}
+
+.link a, .link
+{
+padding-top: 20px; 
+color: #014C92;
+}
+
+.marg
+{
+margin: 0 auto;
+padding: 0 15px;
+}
+
+h2, h3, h4
+{
+margin: 0px;
+padding: 0px;
+color: #014C92;
+font-family: 'Oxygen', sans-serif;
+}
+
+.img_height
+{
+height: 130px;
+overflow: hidden
+}
+ 
+.nav-tabs a
+{
+font-size: 25px;
+font-family: 'Oxygen', sans-serif;
+}
+
+.nav-tabs{border-bottom:1px solid #3b9ffc}
+.nav-tabs>li{float:left;margin-bottom:-1px}
+.nav-tabs>li>a{margin-right:2px;line-height:1.428571429;border:1px solid transparent;border-radius: 10px 10px 0 0}
+.nav-tabs>li>a:hover{border-color:#eee #eee #3b9ffc}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus{color:#3b9ffc;cursor:default;background-color:#fff;border:1px solid #3b9ffc;border-bottom-color:transparent}
+
+/* Preview Script  */
+
+#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	overflow: hidden
+	}
+
+/*! Paddings */
+
+.padd_t10
+{
+padding-top: 10px;
+}
+
+.padd_t20
+{
+padding-top: 20px;
+}
+
+.padd_r10
+{
+padding-right: 10px;
+}
+
+.padd_r20
+{
+padding-right: 20px;
+}
+
+.padd_l10
+{
+padding-left: 10px;
+}
+
+.padd_l20
+{
+padding-left: 20px;
+}
+
+.padd_b10
+{
+padding-bottom: 10px;
+}
+
+.padd_b20
+{
+padding-bottom: 20px;
+}
+
+.but_warp
+{
+width: 45%; !important
+font-size: 14px;
+}
+
+.add
+{
+height: 246px;
+}
+
+
+
+/* Footer */
+
+footer
+{
+margin-bottom: 30px
+}
+
+footer H3
+{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.socials .row
+{
+padding-left: 30px;
+}
+
+.social_icon
+{
+width: 80px;
+margin-top: 5px;
+}
+
+.footer_nav ul
+{
+margin-left: 20px;
+padding: 0px;
+}
+
+.footer_nav ul li
+{
+list-style: none;
+padding-top: 10px;
+padding-left: 10px;
+background: url(../images/small_bullet.png) no-repeat 0px 15px;
+}
+
+.inp_width
+{
+width: 200px;
+}
+
+.myform-control
+{
+display:block;
+width:100%;
+padding:6px 12px;
+font-size:14px;
+line-height:1.428571429;
+color:#555;
+vertical-align:middle;
+background-color:#fff;
+background-image:none;
+border:1px solid #ccc;
+border-radius:4px;
+-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 120px;
+  margin-bottom: 20px;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  color: #000000;
+  left: 40px;
+  right: 40px;
+  text-align: left;
+  text-shadow: none;
+  top: 0px; !important
+
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 120px;
+  margin: 0px;
+  padding: 0px;
+
+ 
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 120px;
+}
+
+.carousel-control.right, .carousel-control.left
+{
+background-image: none;
+color: #014C92;
+width: 30px;
+}
+
+.carousel-indicators .active 
+{
+background: #014C92;
+border: none
+}
+
+.carousel-indicators li
+{
+background: #000000;
+border: none
+}
+
+.centr
+{
+text-align: center;
+}
+
+.gal_num {
+	width:34px;
+	height:32px;
+	padding: 5px;
+	display:block;
+	background: #9AD2FD;
+	color: #FFFFFF;
+	font-size: 14px;
+	margin: 0px 3px 0px 0px;
+	text-decoration:none;
+	float: left;
+	text-align: center;
+	border: 1px solid #1995F4;
+	}
+	
+.gal_num:hover {
+	background: #999999;
+	text-decoration: none;}
+
+
+/*! Mobile  */
+@media (min-width: 1200px) 
+{
+.my_nav
+{
+font-size: 18px;
+}
+
+}
+
+@media screen and (max-width:992px){
+
+.img_height
+{
+height: 280px;
+overflow: hidden
+}
+
+.my_nav
+{
+font-size: 11px;
+}
+
+
+}
+
+@media screen and (max-width:768px){
+
+.navbar-nav
+{margin-left: 0px;}
+
+.img_height
+{
+height: 280px;
+overflow: hidden
+}
+
+
+.novisible_s
+{
+display: none
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+.img_height
+{
+height: 180px;
+overflow: hidden
+}
+
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
+
+.numbers .pag 
+{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #1964CD;
+	background: #C3D9F8;
+	margin: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+.numbers .selected 
+{
+	border: 1px solid #1964CD;
+	margin: 5px;
+	width: 20px;
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.numbers ul
+{
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+	display: inline;
+}
+
+.numbers ul li
+{
+	display: inline;
+}
+
+ul
+{
+	text-align: left;
+}
+
+ul li
+{
+	padding: 3px;
+}
